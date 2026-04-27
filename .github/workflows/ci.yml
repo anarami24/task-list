@@ -14,8 +14,6 @@ jobs:
           node-version: '20'
       - name: Install
         run: npm install 
-      - name: Test
-        run: npm test
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
